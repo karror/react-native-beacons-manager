@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.RemoteException;
-import org.jetbrains.annotations.Nullable;
+//import org.jetbrains.annotations.Nullable;
 import android.util.Log;
 
 import com.facebook.react.bridge.Callback;
@@ -34,6 +34,8 @@ import org.altbeacon.beacon.service.RunningAverageRssiFilter;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+
+import androidx.annotation.Nullable;
 
 public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements BeaconConsumer {
   private static final String LOG_TAG = "BeaconsAndroidModule";
